@@ -1,0 +1,190 @@
+ body{
+	background-color: #F1F8F6;
+}
+.container{
+	margin-top:2vh;
+	padding-top:5px; 
+	background-color: white;
+}
+#banniere{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #57f1cb;
+	height:auto;
+}
+#banniere img{
+	width: 95%;
+	height: auto;
+	margin-bottom: 5px;
+}
+#footer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	background-color: #57f1cb;
+	height: 10vh;
+	margin: 12px 0px 10px 0px;
+}
+
+.logo{
+	width: 170px;
+    height: 70px;
+}
+
+#global{
+  margin:10px 0px 15px 0px;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.navbar{
+	background-color: #57f1cb;
+	border-bottom: 8px solid white;
+}
+.menu-nav{
+	display: flex;
+	justify-content: space-around;
+	height: 100%;
+	width: 95%;
+	list-style-type: none;
+	margin: 0;
+	padding-left: 2em;
+	text-align: center
+}
+.fils{
+  display:flex;
+  flex-direction: column;
+	width: 100%;
+	height: auto;
+	position: relative;
+	animation: ani1 1s ease-out;
+	overflow: auto;
+}
+
+
+
+#formulaire{
+	display:flex;
+    flex-direction: column;
+	width: 100%;
+	height: auto;
+	position: relative;
+	animation: ani1 1s ease-out;
+}
+.menu-nav a{
+	color: rgb(12, 12, 12); 
+	text-decoration: none;
+}
+#actif{
+	background-color: rgb(5, 10, 92);
+	color: white;
+}
+#actif a{
+	color: white;
+}
+#search{
+	width: 310px;
+	margin: 0;
+
+}
+#bienvenu{
+	text-align: center;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin:5px;
+	padding-bottom: 1em;
+}
+.menu-nav li{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 150px;
+    height: 50px;
+	background-color: white;
+
+}
+.menu-nav li:hover{
+	color: white;
+	background-color: rgba(0,0,0,0.5);
+}
+.menu-nav li:hover a{
+	color: white;
+}
+
+@media screen and (max-width:990px){
+	.menu-nav{
+	display: flex;
+	flex-direction: column;
+}
+.menu-nav li{
+	margin-top:1em;
+}
+
+#bienvenu{
+	font-size: 15px;
+}
+}
+/* boutou*/
+.sbouton1{
+	display: flex;
+	flex-direction: row;
+	justify-content:flex-end;
+}
+.sbouton2{
+	display: flex;
+	justify-content:flex-end;
+	  margin-right: 10px;
+	  padding: 0.3em;
+	  color: rgb(5, 10, 92);
+	  border: 3px solid  rgb(5, 10, 92);
+  
+  }
+
+/*details*/
+  .sidebare{
+    width: 30%;
+    height: auto;
+  
+   }
+
+   .menu-vertic{
+    font-size: 20px;
+    background-color: rgb(5, 10, 92);
+    cursor: pointer;
+    padding: 13px;
+    width: 92%;
+    height: auto;
+    border: 1px solid rgb(236, 233, 233);
+    color: cadetblue;
+    margin-bottom: 0;
+    margin-top: 0px;
+    font-family: "High tower text ";
+  }
+
+  .detail-text{
+	font-size: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: 400;
+
+  }
+
+  .detail-titre{
+	font-size: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;	  
+  }
+
+  
+.card-text{
+	color:white;
+	font-size: 2em, 
+	text-transform:uppercase;
+
+}
